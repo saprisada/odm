@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DOC_MAIN" id="038C40C6-92A0-8D7D-7446-42872D7A5DBA">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-22 06:18:43 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<defaultValue>0</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="0" description="Дополнительный документ"/>
+<valueDef value="1" description="Основной документ"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="COLOR" id="2AD7EE7C-90CD-043F-41DD-28F939A15A14">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 09:07:25 UTC</createdTime>
+<comment><![CDATA[Цвет]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<defaultValue>blue</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="blue" description="синий"/>
+<valueDef value="dark" description="чёрный"/>
+<valueDef value="green" description="зеленый"/>
+<valueDef value="red" description="красный"/>
+<valueDef value="white" description="белый"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ROUTE_SERVICE" id="B229BE76-DB2A-5392-D5AB-9C1BF951854C">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-21 08:44:25 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<defaultValue>RABBIT</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="RABBIT" description="Доставка зайцем"/>
+<valueDef value="SAPSAN" description="Доставка соколом"/>
+<valueDef value="TURTLE" description="Доставка черепахой"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-18 10:10:44 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="RACK_MODEL" id="EEB905D7-6773-560A-6C97-F2F6B8182E9F">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-21 10:04:00 UTC</createdTime>
+<comment><![CDATA[Тип шкафа]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<defaultValue>WOODEN_CABINET</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="LOCKABLE_SAFE" description="Запираемый сейф"/>
+<valueDef value="METAL_CABINET" description="Металлический шкаф"/>
+<valueDef value="WOODEN_CABINET" description="Деревянный шкаф"/>
+</listOfValues>
+</Domain>
+</domains>
+</DomainFile>
