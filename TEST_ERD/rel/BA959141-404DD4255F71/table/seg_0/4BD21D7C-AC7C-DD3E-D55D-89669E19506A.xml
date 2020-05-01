@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BD21D7C-AC7C-DD3E-D55D-89669E19506A" name="Entitys_2">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:56:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Entity_2]]></commentInRDBMS>
+<generatorID>D37061B7-15A2-F0B5-ECA3-C3AA25303A5F</generatorID>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="a1" id="0370D3E2-6EFD-D366-EFAA-E4CD58866368">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:56:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_1]]></commentInRDBMS>
+<generatorID>FA517E85-A2C0-D305-1D2A-8B36421E7CDC</generatorID>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a2" id="AFB14D48-3229-BCEF-8F11-D622AA9A9FA6">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:56:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_2]]></commentInRDBMS>
+<generatorID>5561E5E1-2B7C-8C53-6205-982DD7FB72FF</generatorID>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a3" id="9FDD7410-FA49-0A77-E7C2-9692FF794140">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:56:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_3]]></commentInRDBMS>
+<generatorID>DBB7FF88-E5B4-7BE8-E220-98BF843369D2</generatorID>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT005</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a4" id="A438C543-1A1E-08DC-E1FC-2F27D2D1ACF5">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:56:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_4]]></commentInRDBMS>
+<generatorID>92DA4E8C-671F-AD99-A30C-E73ECDA49E65</generatorID>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2AD7EE7C-90CD-043F-41DD-28F939A15A14</domain>
+<defaultValue>blue</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entitys_2_ID" id="31FC934B-AAB7-E4B1-54F4-925A654538CA">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:56:20 UTC</createdTime>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="146D48F5-406F-EBB5-7B23-EC60CE66A251" name="Entitys_2_PK">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:56:20 UTC</createdTime>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="31FC934B-AAB7-E4B1-54F4-925A654538CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

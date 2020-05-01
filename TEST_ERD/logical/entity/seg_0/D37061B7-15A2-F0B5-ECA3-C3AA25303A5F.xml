@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D37061B7-15A2-F0B5-ECA3-C3AA25303A5F" name="Entity_2">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:00:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Entity_2]]></commentInRDBMS>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<engineerTo>
+<item key="BA959141-AC6E-2E16-2B39-404DD4255F71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attribute_1" id="FA517E85-A2C0-D305-1D2A-8B36421E7CDC">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:00:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_1]]></commentInRDBMS>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<engineerTo>
+<item key="BA959141-AC6E-2E16-2B39-404DD4255F71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_2" id="5561E5E1-2B7C-8C53-6205-982DD7FB72FF">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:00:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_2]]></commentInRDBMS>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<engineerTo>
+<item key="BA959141-AC6E-2E16-2B39-404DD4255F71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_3" id="DBB7FF88-E5B4-7BE8-E220-98BF843369D2">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:00:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_3]]></commentInRDBMS>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<engineerTo>
+<item key="BA959141-AC6E-2E16-2B39-404DD4255F71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT005</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_4" id="92DA4E8C-671F-AD99-A30C-E73ECDA49E65">
+<createdBy>sergey</createdBy>
+<createdTime>2020-04-25 10:00:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[E2_Attribute_4]]></commentInRDBMS>
+<ownerDesignName>TEST_ERD</ownerDesignName>
+<engineerTo>
+<item key="BA959141-AC6E-2E16-2B39-404DD4255F71" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2AD7EE7C-90CD-043F-41DD-28F939A15A14</domain>
+<defaultValue>blue</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
